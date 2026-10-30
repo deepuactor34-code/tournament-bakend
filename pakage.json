@@ -1,0 +1,30 @@
+{
+  "name": "esports-tournament-backend",
+  "version": "1.0.0",
+  "description": "Production-ready single-file backend for esports tournament app with Firebase Auth, Firestore, and Cashfree payment gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "esports",
+    "tournament",
+    "firebase",
+    "firestore",
+    "cashfree",
+    "payment-gateway",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.5.0"
+  }
+}
